@@ -1,9 +1,9 @@
 # awesome-smart-sampling
 
 In the artificial intelligence (AI) era, accessing the right data is crucial for building effective models while
-minimizing costs. Depending if the data is labeled or not, the process of accessing the right data can be split 
+minimizing costs. The process of accessing the right data can be split 
 into two main categories:
-- *data sampling*: the process of selecting a representative subset of data among a larger not labeled dataset. 
+- *data sampling*: the process of selecting a representative subset of data among a larger dataset. 
 - *data splitting*: The processing of dividing a dataset into training, validation, and test sets.
 
 In both cases, the goal is to make sure that all sets used during the training and monitoring of the AI pipeline
@@ -24,7 +24,6 @@ Not all of these sources have been tested/verified and there is no guarantee tha
 
 - Moser, Brian B., et al. [A Coreset Selection of Coreset Selection Literature: Introduction and Recent Advances](https://arxiv.org/pdf/2505.17799).
   arXiv preprint arXiv:2505.17799 (2025).
-
 
 # Sampling on images  
 
@@ -90,7 +89,6 @@ they are still integrating a sampling step to filter out some data.
 - Siméoni O., et al. [DINOv3](https://arxiv.org/pdf/2508.10104). arXiv preprint arXiv:2508.10104 (2025).
 - Shi, K., et al. [ProtoConNet: Prototypical Augmentation and Alignment for Open-Set Few-Shot Image Classification](https://arxiv.org/pdf/2507.11845).
   arXiv preprint arXiv:2507.11845 (2025).
-
 
 # Sampling on text
 
