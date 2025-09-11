@@ -1,8 +1,7 @@
 # awesome-smart-sampling
 
 In the artificial intelligence (AI) era, accessing the right data is crucial for building effective models while
-minimizing costs. The process of accessing the right data can be split 
-into two main categories:
+minimizing costs. The process of accessing the right data can be split into two main categories:
 - *data sampling*: the process of selecting a representative subset of data among a larger dataset. 
 - *data splitting*: The processing of dividing a dataset into training, validation, and test sets.
 
@@ -24,6 +23,19 @@ Not all of these sources have been tested/verified and there is no guarantee tha
 
 - Moser, Brian B., et al. [A Coreset Selection of Coreset Selection Literature: Introduction and Recent Advances](https://arxiv.org/pdf/2505.17799).
   arXiv preprint arXiv:2505.17799 (2025).
+
+# other awesome-sampling repositories
+
+- [SupeRuier/awesome-active-learning](https://github.com/SupeRuier/awesome-active-learning): list of resources about active learning.
+- [baifanxxx/awesome-active-learning](https://github.com/baifanxxx/awesome-active-learning): list of resources about active learning.
+- [yongjin-shin/awesome-active-learning](yongjin-shin/awesome-active-learning): list of resources about active learning.
+
+# Global public repositories
+
+- [Alipy](https://github.com/NUAA-AL/ALiPy): Active learning framework allowing to conveniently evaluate, 
+  compare and analyze the performance of active learning methods.
+- [Baal](https://github.com/baal-org/baal): Bayesian active learning library with PyTorch.
+- [Adaptive](https://github.com/python-adaptive/adaptive): Python library for adaptive sampling.
 
 # Sampling on images  
 
@@ -78,6 +90,8 @@ Not all of these sources have been tested/verified and there is no guarantee tha
   Advances in Neural Information Processing Systems 35 (2022): 29915-29928.
 - Smith, F. B., et al. [Making better use of unlabelled data in bayesian active learning](https://proceedings.mlr.press/v238/bickford-smith24a/bickford-smith24a.pdf).
   International conference on artificial intelligence and statistics. PMLR, 2024.
+- Gissin, D., et al. [Discriminative active learning](https://arxiv.org/pdf/1907.06347). 
+  arXiv preprint arXiv:1907.06347 (2019).
 
 ### Sampling as a step of the publication
 
@@ -97,6 +111,7 @@ they are still integrating a sampling step to filter out some data.
 - [DSIR](https://github.com/p-lambda/dsir): Data selection for text using [importance resampling](https://arxiv.org/pdf/2302.03169)
 - [Awesome Data Efficient LLM](https://github.com/luo-junyu/Awesome-Data-Efficient-LLM): list of resources about
   data-efficient training of large language models.
+- [Small-Text](https://github.com/webis-de/small-text): State of the art active learning for text classification.
 
 ## scientific publications
 
@@ -135,3 +150,10 @@ This section is listing some code repositories with less than 1 year activity.
 
 - [Google Active Learning](https://github.com/google/active-learning/tree/master): Set of sampling methods for active learning.
 - [Decile CORDS](https://github.com/decile-team/cords): Coreset and data selection for data-efficient training of deep learning models.
+- [rmunro/pytorch_active_learning](https://github.com/rmunro/pytorch_active_learning): Library for common Active Learning methods 
+  to accompany `Human-in-the-Loop Machine Learning` book.
+- [ej0cl6/deep-active-learning](https://github.com/ej0cl6/deep-active-learning): A collection of PyTorch implementations of deep active learning algorithms.
+- [ModAL](https://github.com/modAL-python/modAL): Modular active learning framework.
+- [libact](https://github.com/ntucllab/libact): A Python library for pool-based active learning.
+- [AL Toolbox](https://github.com/AIRI-Institute/al_toolbox): A toolbox for active learning research.
+- [ALaaS](https://github.com/HuaizhengZhang/Active-Learning-as-a-Service): An active learning service platform.
