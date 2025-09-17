@@ -24,11 +24,14 @@ Not all of these sources have been tested/verified and there is no guarantee tha
 - Moser, Brian B., et al. [A Coreset Selection of Coreset Selection Literature: Introduction and Recent Advances](https://arxiv.org/pdf/2505.17799).
   arXiv preprint arXiv:2505.17799 (2025).
 
-# other awesome-sampling repositories
+# Other awesome-sampling repositories
 
 - [SupeRuier/awesome-active-learning](https://github.com/SupeRuier/awesome-active-learning): list of resources about active learning.
 - [baifanxxx/awesome-active-learning](https://github.com/baifanxxx/awesome-active-learning): list of resources about active learning.
-- [yongjin-shin/awesome-active-learning](yongjin-shin/awesome-active-learning): list of resources about active learning.
+- [yongjin-shin/awesome-active-learning](https://github.com/yongjin-shin/awesome-active-learning): list of resources about active learning.
+- [Clearloveyuan/awesome-active-learning-New](https://github.com/Clearloveyuan/awesome-active-learning-New)
+- [PatrickZH/Awesome-Coreset-Selection](https://github.com/PatrickZH/Awesome-Coreset-Selection): list of resources about coreset selection.
+- [gszfwsb/Awesome-Dataset-Reduction](https://github.com/gszfwsb/Awesome-Dataset-Reduction): list of resources about dataset reduction.
 
 # Global public repositories
 
@@ -36,6 +39,14 @@ Not all of these sources have been tested/verified and there is no guarantee tha
   compare and analyze the performance of active learning methods.
 - [Baal](https://github.com/baal-org/baal): Bayesian active learning library with PyTorch.
 - [Adaptive](https://github.com/python-adaptive/adaptive): Python library for adaptive sampling.
+- [scikit-activeml](https://github.com/scikit-activeml/scikit-activeml): Active learning library compatible with scikit-learn.
+- [pyrelational](https://github.com/RelationRx/pyrelational): Python library for the rapid and reliable construction of active learning
+  strategies and infrastructure around them
+- [Coreax](https://github.com/gchq/coreax): a library for coreset algorithms, written in JAX for fast execution and GPU support.
+
+# Global private solutions
+
+-[DataHeroes](https://dataheroes.ai/): data sampling techniques and automated processes for iteratively sampling, refining and optimizing your training dataset
 
 # Sampling on images  
 
@@ -92,6 +103,16 @@ Not all of these sources have been tested/verified and there is no guarantee tha
   International conference on artificial intelligence and statistics. PMLR, 2024.
 - Gissin, D., et al. [Discriminative active learning](https://arxiv.org/pdf/1907.06347). 
   arXiv preprint arXiv:1907.06347 (2019).
+- Saran, A., et al. [Streaming active learning with deep neural networks](https://arxiv.org/pdf/2303.02535).
+  International Conference on Machine Learning. PMLR, 2023.
+- Yang, C., et al. [Plug and play active learning for object detection](https://arxiv.org/pdf/2211.11612).
+  Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2024.
+- Casanova, A., et al. [Reinforced active learning for image segmentation](https://arxiv.org/pdf/2002.06583).
+  arXiv preprint arXiv:2002.06583 (2020).
+- Kim, S., et al. [Coreset sampling from open-set for fine-grained self-supervised learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_Coreset_Sampling_From_Open-Set_for_Fine-Grained_Self-Supervised_Learning_CVPR_2023_paper.pdf).
+  Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
+- Yang, Y., et al. [Towards sustainable learning: Coresets for data-efficient deep learning](https://proceedings.mlr.press/v202/yang23g/yang23g.pdf). 
+  International Conference on Machine Learning. PMLR, 2023.
 
 ### Sampling as a step of the publication
 
@@ -112,6 +133,7 @@ they are still integrating a sampling step to filter out some data.
 - [Awesome Data Efficient LLM](https://github.com/luo-junyu/Awesome-Data-Efficient-LLM): list of resources about
   data-efficient training of large language models.
 - [Small-Text](https://github.com/webis-de/small-text): State of the art active learning for text classification.
+- [Energizer](https://github.com/pietrolesci/energizer): Active-Learning framework for PyTorch based on PyTorch-Lightning.
 
 ## scientific publications
 
@@ -127,6 +149,10 @@ they are still integrating a sampling step to filter out some data.
   Advances in Neural Information Processing Systems 37 (2024): 131197-131223.
 - Bai, T., et al. [Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration](https://aclanthology.org/2025.acl-long.466.pdf).
   Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.
+- Xiao, R., et al. [Freeal: Towards human-free active learning in the era of large language models](https://arxiv.org/pdf/2311.15614).
+  arXiv preprint arXiv:2311.15614 (2023).
+- Wang, J., et al. [Coresets over multiple tables for feature-rich and data-efficient machine learning](https://www.vldb.org/pvldb/vol16/p64-wang.pdf).
+  Proceedings of the VLDB Endowment 16.1 (2022): 64-76.
 
 # Sampling on other data types
 
@@ -157,3 +183,8 @@ This section is listing some code repositories with less than 1 year activity.
 - [libact](https://github.com/ntucllab/libact): A Python library for pool-based active learning.
 - [AL Toolbox](https://github.com/AIRI-Institute/al_toolbox): A toolbox for active learning research.
 - [ALaaS](https://github.com/HuaizhengZhang/Active-Learning-as-a-Service): An active learning service platform.
+- [acl21/deep-active-learning-pytorch](http://github.com/acl21/deep-active-learning-pytorch): Deep Active Learning Toolkit for Image Classification in PyTorch.
+- [AlpacaTag](https://github.com/INK-USC/AlpacaTag): active learning-based crowd annotation framework for sequence tagging
+- [Cure lab deep active learning](https://github.com/cure-lab/deep-active-learning): A collection of deep active learning algorithms in PyTorch.
+- [DeepCore](https://github.com/PatrickZH/DeepCore): A Comprehensive Library for Coreset Selection in Deep Learning
+- [MiniCore](https://github.com/dnbaker/minicore):  fast, generic library for constructing and clustering coresets on graphs, in metric spaces and under non-metric dissimilarity measures
