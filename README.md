@@ -43,6 +43,8 @@ Not all of these sources have been tested/verified and there is no guarantee tha
 - [pyrelational](https://github.com/RelationRx/pyrelational): Python library for the rapid and reliable construction of active learning
   strategies and infrastructure around them
 - [Coreax](https://github.com/gchq/coreax): a library for coreset algorithms, written in JAX for fast execution and GPU support.
+- [Scikit-Learn](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html): simple data splitting
+  strategies such as K-Fold or Stratified K-Fold.
 
 # Global private solutions
 
@@ -113,6 +115,16 @@ Not all of these sources have been tested/verified and there is no guarantee tha
   Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
 - Yang, Y., et al. [Towards sustainable learning: Coresets for data-efficient deep learning](https://proceedings.mlr.press/v202/yang23g/yang23g.pdf). 
   International Conference on Machine Learning. PMLR, 2023.
+- Maharana, A., et al. [D2 pruning: Message passing for balancing diversity and difficulty in data pruning](https://arxiv.org/pdf/2310.07931).
+  arXiv preprint arXiv:2310.07931 (2023).
+- Zheng, H., et al. [Elfs: Label-free coreset selection with proxy training dynamics](https://openreview.net/pdf?id=yklJpvB7Dq). 
+  arXiv preprint arXiv:2406.04273 (2024).
+- Zheng, H., et al. [Coverage-centric coreset selection for high pruning rates](https://openreview.net/pdf?id=QwKvL6wC8Yi).
+  arXiv preprint arXiv:2210.15809 (2022).
+- Hong, Y., et al. [Evolution-aware variance (EVA) coreset selection for medical image classification](https://arxiv.org/pdf/2406.05677?).
+  Proceedings of the 32nd ACM International Conference on Multimedia. 2024.
+- Jha, A., et al. [GRAFT: Gradient-Aware Fast MaxVol Technique for Dynamic Data Sampling](https://arxiv.org/pdf/2508.13653?).
+  arXiv preprint arXiv:2508.13653 (2025).
 
 ### Sampling as a step of the publication
 
@@ -134,6 +146,7 @@ they are still integrating a sampling step to filter out some data.
   data-efficient training of large language models.
 - [Small-Text](https://github.com/webis-de/small-text): State of the art active learning for text classification.
 - [Energizer](https://github.com/pietrolesci/energizer): Active-Learning framework for PyTorch based on PyTorch-Lightning.
+- [BRIEF](https://github.com/HR10108/BRIEF): Bi-level optimization framework for efficient coreset selection in Large Language Model instruction tuning.
 
 ## scientific publications
 
@@ -153,8 +166,28 @@ they are still integrating a sampling step to filter out some data.
   arXiv preprint arXiv:2311.15614 (2023).
 - Wang, J., et al. [Coresets over multiple tables for feature-rich and data-efficient machine learning](https://www.vldb.org/pvldb/vol16/p64-wang.pdf).
   Proceedings of the VLDB Endowment 16.1 (2022): 64-76.
+- Mahabadi, S., et al. [Core-sets for fair and diverse data summarization](https://www.microsoft.com/en-us/research/wp-content/uploads/2023/09/coresets-for-fair-diverse.pdf). 
+  Advances in Neural Information Processing Systems 36 (2023): 78987-79011.
+- Zhang, B., et al. [A survey on data selection for llm instruction tuning](https://arxiv.org/pdf/2402.05123v2).
+  Journal of Artificial Intelligence Research 83 (2025).
+- Qin, Y., et al. [Unleashing the power of data tsunami: A comprehensive survey on data assessment and selection for instruction tuning of language models](https://arxiv.org/pdf/2408.02085?).
+  arXiv preprint arXiv:2408.02085 (2024).
+- Mei, T., et al. [GORACS: Group-level Optimal Transport-guided Coreset Selection for LLM-based Recommender Systems](https://arxiv.org/pdf/2506.04015).
+  Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2. 2025.
+- Wang, S., et al. [Data whisperer: Efficient data selection for task-specific llm fine-tuning via few-shot in-context learning](https://arxiv.org/pdf/2505.12212).
+  arXiv preprint arXiv:2505.12212 (2025).
+- Joaquin, A., et al. [In2core: Leveraging influence functions for coreset selection in instruction finetuning of large language models](https://arxiv.org/pdf/2408.03560?).
+  arXiv preprint arXiv:2408.03560 (2024).
+- Zhang, X., et al. [Staff: Speculative coreset selection for task-specific fine-tuning](https://openreview.net/pdf?id=FAfxvdv1Dy).
+  The Thirteenth International Conference on Learning Representations. 2025.
+- Wu, S., et al. [Self-evolved diverse data sampling for efficient instruction tuning](https://arxiv.org/pdf/2311.08182). 
+  arXiv preprint arXiv:2311.08182 (2023).
 
 # Sampling on other data types
+
+## public repositories
+
+- [Astartes](https://github.com/JacksonBurns/astartes): Better Data Splits for Machine Learning.
 
 ## scientific publications
 
@@ -169,6 +202,20 @@ they are still integrating a sampling step to filter out some data.
 arXiv preprint arXiv:2406.14876 (2024).
 - Zhu, H., et al. [Deep Active Learning based Experimental Design to Uncover Synergistic Genetic Interactions for Host Targeted Therapeutics](https://arxiv.org/pdf/2502.01012?).
   arXiv preprint arXiv:2502.01012 (2025).
+- Rusch, T. K., et al. [Message-Passing Monte Carlo: Generating low-discrepancy point sets via graph neural networks]().
+  Proceedings of the National Academy of Sciences 121.40 (2024): e2409913121.
+- Guilhaumon, C., et al. [Data augmentation for regression machine learning problems in high dimensions](https://www.mdpi.com/2079-3197/12/2/24).
+  Computation 12.2 (2024): 24.
+- Loyola, D., et al. [Smart sampling and incremental function learning for very large high dimensional data](https://elib.dlr.de/75758/1/Loyola_2015.pdf).
+  Neural Networks 78 (2016): 75-87.
+- Mineiro, P., et al. [Loss-proportional subsampling for subsequent erm](https://proceedings.mlr.press/v28/mineiro13.pdf).
+  International Conference on Machine Learning. PMLR, 2013.
+- Tang, J., et al. [Smart Query Sampling with Feature Coverage and Unsupervised Machine Learning](https://jimahn.com/FiCloud2023-smartquerysampling.pdf).
+  2023 10th International Conference on Future Internet of Things and Cloud (FiCloud). IEEE, 2023.
+- Killamsetty, K., et al. [Retrieve: Coreset selection for efficient and robust semi-supervised learning](https://openreview.net/pdf?id=jSz59N8NvUP).
+  Advances in neural information processing systems 34 (2021): 14488-14501.
+- Chai, C., et al. [Efficient coreset selection with cluster-based methods](https://dl.acm.org/doi/pdf/10.1145/3580305.3599326).
+  Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2023.
 
 # Deprecated repositories
 
@@ -188,3 +235,4 @@ This section is listing some code repositories with less than 1 year activity.
 - [Cure lab deep active learning](https://github.com/cure-lab/deep-active-learning): A collection of deep active learning algorithms in PyTorch.
 - [DeepCore](https://github.com/PatrickZH/DeepCore): A Comprehensive Library for Coreset Selection in Deep Learning
 - [MiniCore](https://github.com/dnbaker/minicore):  fast, generic library for constructing and clustering coresets on graphs, in metric spaces and under non-metric dissimilarity measures
+- [DataSplitters](https://github.com/RAVAO-Ravo/DataSplitters): A library of data splitting algorithms for machine learning tasks.
