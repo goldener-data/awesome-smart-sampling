@@ -19,6 +19,9 @@ and each of this type is split between:
 Warning, the intent here is to provide a list of sources claiming to use/implement smart sampling/splitting. 
 Not all of these sources have been tested/verified and there is no guarantee that the expressed claims are valid.
 
+Note: This repository has been created to kick off Goldener's sampling tool in September 2025. It is not intended to be exhaustive, and
+is probably not up to date.
+
 # Scientific surveys
 
 - Moser, Brian B., et al. [A Coreset Selection of Coreset Selection Literature: Introduction and Recent Advances](https://arxiv.org/pdf/2505.17799).
