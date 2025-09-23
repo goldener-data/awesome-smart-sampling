@@ -125,6 +125,8 @@ Not all of these sources have been tested/verified and there is no guarantee tha
   Proceedings of the 32nd ACM International Conference on Multimedia. 2024.
 - Jha, A., et al. [GRAFT: Gradient-Aware Fast MaxVol Technique for Dynamic Data Sampling](https://arxiv.org/pdf/2508.13653?).
   arXiv preprint arXiv:2508.13653 (2025).
+- Chen, B., et al. [Revisiting Automatic Data Curation for Vision Foundation Models in Digital Pathology](https://arxiv.org/pdf/2503.18709?).
+  arXiv preprint arXiv:2503.18709 (2025).
 
 ### Sampling as a step of the publication
 
